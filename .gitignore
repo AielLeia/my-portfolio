@@ -153,3 +153,5 @@ bower_components
 psd
 thumb
 sketch
+# Sentry Config File
+.env.sentry-build-plugin
