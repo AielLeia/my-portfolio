@@ -49,6 +49,9 @@ export const BentoGridItem = ({
   titleClassName?: string;
   spareImg?: string;
 }) => {
+  const leftLists = ['React.js', 'Next.js', 'MongoDB'];
+  const rightLists = ['Java', 'Spring Boot', 'MySQL'];
+
   const [copied, setCopied] = useState(false);
 
   const handleCopy = async () => {
@@ -109,32 +112,33 @@ export const BentoGridItem = ({
           <div className="font-sans font-extralight text-[#C1C2C3] text-sm md:text-xs lg:text-base z-10">
             {description}
           </div>
-          <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
+          <div className="font-sans font-bold text-lg lg:text-xl max-w-96 z-10">
             {title}
           </div>
 
-          {/*{id === 2 && <GridGlobe />}*/}
+          {id === 2 && <GridGlobe />}
 
           {id === 3 && (
-            <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
-              <div className="flex flex-col gap-3 lg:gap-8">
-                {['React.js', 'Next.js', 'Typescript'].map((item) => (
+            <div className="flex gap-1 lg:gap-3 w-fit absolute -right-3 lg:-right-2">
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-5">
+                {leftLists.map((item, i) => (
                   <span
-                    key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    key={i}
+                    className="py-2 px-3 text-xs lg:text-base opacity-50
+                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
                   </span>
                 ))}
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
+                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
               </div>
-
-              <div className="flex flex-col gap-3 lg:gap-8">
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
-                {['Vue.js', 'AWS', 'MongoDB'].map((item) => (
+              <div className="flex flex-col gap-3 md:gap-3 lg:gap-5">
+                <span className="lg:py-4 lg:px-3 py-4 px-3  rounded-lg text-center bg-[#10132E]"></span>
+                {rightLists.map((item, i) => (
                   <span
-                    key={item}
-                    className="py-2 lg:py-4 lg:px-3 px-3 text-xs lg:text-base opacity-50 lg:opacity-100 rounded-lg text-center bg-[#10132E]"
+                    key={i}
+                    className="py-2 px-3 text-xs lg:text-base opacity-50
+                    lg:opacity-100 rounded-lg text-center bg-[#10132E]"
                   >
                     {item}
                   </span>
@@ -142,9 +146,8 @@ export const BentoGridItem = ({
               </div>
             </div>
           )}
-
           {id === 6 && (
-            <div className="mt-5 relative">
+            <div className="relative">
               <div className={cn('absolute -bottom-5 right-0')}>
                 <Lottie
                   options={{

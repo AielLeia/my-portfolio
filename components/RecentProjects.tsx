@@ -8,8 +8,8 @@ const RecentProjects = () => {
     <section id="projects">
       <div className="py-20">
         <h1 className="heading">
-          A small selection of{' '}
-          <span className="text-purple">recent projects</span>
+          Une petite sélection de{' '}
+          <span className="text-purple">projets récents</span>
         </h1>
         <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
           {projects.map(({ id, title, des, img, iconLists, link }) => (

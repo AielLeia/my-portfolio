@@ -1,14 +1,15 @@
 export const navItems = [
-  { name: 'About', link: '#about' },
-  { name: 'Projects', link: '#projects' },
-  { name: 'Testimonials', link: '#testimonials' },
+  { name: 'A propos de moi', link: '#about' },
+  { name: 'Projets', link: '#projects' },
+  { name: 'Témoignages', link: '#testimonials' },
   { name: 'Contact', link: '#contact' },
 ];
 
 export const gridItems = [
   {
     id: 1,
-    title: 'I prioritize client collaboration, fostering open communication ',
+    title:
+      'Je donne la priorité à la collaboration avec les clients, en favorisant une communication ouverte.',
     description: '',
     className: 'lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]',
     imgClassName: 'w-full h-full',
@@ -18,7 +19,8 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title:
+      "Je suis ouvert à tous types de projets, qu'il s'agisse de sites web personnels ou d'applications web sophistiquées.",
     description: '',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
     imgClassName: '',
@@ -28,8 +30,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: 'My tech stack',
-    description: 'I constantly try to improve',
+    title: 'Stack techniques',
+    description: "J'essaie constamment de m'améliorer",
     className: 'lg:col-span-2 md:col-span-3 md:row-span-2',
     imgClassName: '',
     titleClassName: 'justify-center',
@@ -38,7 +40,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: 'Tech enthusiast with a passion for development.',
+    title: 'Passionné de technologie et de développement.',
     description: '',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-1',
     imgClassName: '',
@@ -49,8 +51,9 @@ export const gridItems = [
 
   {
     id: 5,
-    title: 'Currently building a JS Animation library',
-    description: 'The Inside Scoop',
+    title:
+      "Je m'engage à atteindre vos objectifs en utilisant les meilleures pratiques du marché et à produire un code robuste et maintenable à long terme.",
+    description: "L'info de première main",
     className: 'md:col-span-3 md:row-span-2',
     imgClassName: 'absolute right-0 bottom-0 md:w-96 w-60',
     titleClassName: 'justify-center md:justify-start lg:justify-center',
@@ -59,7 +62,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: 'Do you want to start a project together?',
+    title: 'Vous souhaitez démarrer un projet ensemble ?',
     description: '',
     className: 'lg:col-span-2 md:col-span-3 md:row-span-1',
     imgClassName: '',
