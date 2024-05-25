@@ -1,4 +1,5 @@
 import { workExperience } from '@/data';
+import { cn } from '@/utils/cn';
 
 import { Button } from '@/components/ui/MovingBorder';
 
@@ -7,14 +8,18 @@ const Experience = () => {
     <section id="experiences">
       <div className="py-20">
         <h1 className="heading">
-          My <span className="text-purple">work experience</span>
+          Mon <span className="text-purple">expérience professionnelle</span>
         </h1>
         <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
           {workExperience.map((card) => (
             <Button
               key={card.id}
               borderRadius="1.75rem"
-              className="flex-1 text-white border-neutral-200 dark:border-slate-800"
+              containerClassName={card.className}
+              className={cn(
+                'flex-1 text-white border-neutral-200 dark:border-slate-800',
+                card.className
+              )}
               duration={Math.floor(Math.random() * 10_000) + 10_000}
               style={{
                 background: 'rgb(4,7,29)',

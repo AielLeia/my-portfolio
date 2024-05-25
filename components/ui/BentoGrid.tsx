@@ -116,7 +116,7 @@ export const BentoGridItem = ({
             {title}
           </div>
 
-          {id === 2 && <GridGlobe />}
+          {/*{id === 2 && <GridGlobe />}*/}
 
           {id === 3 && (
             <div className="flex gap-1 lg:gap-3 w-fit absolute -right-3 lg:-right-2">
@@ -162,7 +162,7 @@ export const BentoGridItem = ({
               </div>
 
               <MagicButton
-                title={copied ? 'Email copied' : 'Copy my email'}
+                title={copied ? 'Email copié' : 'Copier mon e-mail'}
                 icon={<IoCopyOutline />}
                 position="left"
                 otherClasses="!bg-[#161A31]"

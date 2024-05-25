@@ -9,15 +9,13 @@ const Approach = () => {
   return (
     <section id="approach" className="w-full py-20">
       <h1 className="heading">
-        My <span className="text-purple">approach</span>
+        Mon <span className="text-purple">approche</span>
       </h1>
       <div className="my-20 flex flex-col lg:flex-row items-center justify-center gap-4">
         <Card
-          title="Planning & Strategy"
+          title="Planification et stratégie"
           icon={<PhaseButton order="Phase 1" />}
-          description="We'll collaborate to map out your website's goals, target audience,
-          and key functionalities. We'll discuss things like site structure,
-          navigation, and content requirements."
+          description="Je vais analyser vos maquettes de site et vos besoins métier, puis vous proposer un chiffrage et une estimation de la charge de travail. Je mettrai en place un agenda de démonstrations intermédiaires afin de vous fournir un suivi de l'état d'avancement des travaux. De plus, j'apporterai mon expertise pour la mise en service de l'application."
         >
           <CanvasRevealEffect
             animationSpeed={5.1}
@@ -25,11 +23,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Progress Update"
+          title="Développement"
           icon={<PhaseButton order="Phase 2" />}
-          description="Once we agree on the plan, I cue my lofi playlist and dive into
-          coding. From initial sketches to polished code, I keep you updated
-          every step of the way."
+          description="Je vais entreprendre les travaux de développement, depuis la mise en place jusqu'à la finalisation dans les délais impartis. Je m'engage à produire un code maintenable, robuste et évolutif, tout en respectant l'ensemble des besoins métier établis."
         >
           <CanvasRevealEffect
             animationSpeed={3}
@@ -42,11 +38,9 @@ const Approach = () => {
           />
         </Card>
         <Card
-          title="Development & Launch"
+          title="Mise en production"
           icon={<PhaseButton order="Phase 3" />}
-          description="This is where the magic happens! Based on the approved design,
-          I'll translate everything into functional code, building your website
-          from the ground up."
+          description="Une fois les travaux de développement terminés, je mettrai en œuvre la solution établie pour la mise en service du produit."
         >
           <CanvasRevealEffect
             animationSpeed={3}
