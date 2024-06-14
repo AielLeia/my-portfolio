@@ -79,7 +79,8 @@ export const projects = [
     des: "Découvrez un clone de l'outil Miro, avec un système de collaboration interactif et en temps réel.",
     img: '/p1.svg',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/next.svg'],
-    link: 'https://board.ismaelmohamedbouh.fr',
+    link: 'https://www.youtube.com/watch?v=-K6VixKE9Uk&ab_channel=Isma%C3%ABlMOHAMEDBOUH',
+    linkTitle: 'Board',
   },
   {
     id: 2,
@@ -87,7 +88,8 @@ export const projects = [
     des: "Inspirée de Twitch, cette application est l'outil parfait pour les geeks.",
     img: '/p2.svg',
     iconLists: ['/next.svg', '/tail.svg', '/ts.svg', '/stream.svg', '/c.svg'],
-    link: 'https://live.ismaelmohamedbouh.fr',
+    link: 'https://www.youtube.com/watch?v=AIkzkuCBm8s&ab_channel=Isma%C3%ABlMOHAMEDBOUH',
+    linkTitle: 'Live',
   },
   {
     id: 3,
@@ -95,7 +97,8 @@ export const projects = [
     des: "Un outils entirement adapter aux entreprises et au startup, taskify met de l'order dans les projects.",
     img: '/p3.svg',
     iconLists: ['/re.svg', '/tail.svg', '/ts.svg', '/three.svg', '/c.svg'],
-    link: 'https://taskify.ismaelmohamedbouh.fr',
+    link: 'https://www.youtube.com/watch?v=ostcrx7aPfs&ab_channel=Isma%C3%ABlMOHAMEDBOUH',
+    linkTitle: 'Taskify',
   },
 ];
 

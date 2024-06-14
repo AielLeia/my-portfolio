@@ -44,7 +44,10 @@ const Hero = () => {
             Bonjour, je suis Ismaël, un développeur Next.js & Java.
           </p>
 
-          <a href="#about">
+          <a
+            href="https://www.youtube.com/channel/UCXq8STctywIDFqF26VDR5Jg"
+            target="_blank"
+          >
             <MagicButton
               title="Montrer mes travaux"
               icon={<FaLocationArrow />}
