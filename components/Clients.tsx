@@ -8,7 +8,7 @@ const Clients = () => {
       <div className="py-20">
         <h1 className="heading">
           Mots aimables de{' '}
-          <span className="text-purple">clients satisfaits</span>
+          <span className="text-purple">mes collaborateurs</span>
         </h1>
         <div className="flex flex-col items-center mt-10">
           <InfiniteMovingCards
