@@ -36,7 +36,7 @@ const Hero = () => {
           </p>
 
           <TextGenerateEffect
-            words="Transformer les concepts en expériences utilisateur transparentes"
+            words="Transformer vos concepts en expériences utilisateur transparentes"
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
           />
 
@@ -49,7 +49,7 @@ const Hero = () => {
             target="_blank"
           >
             <MagicButton
-              title="Montrer mes travaux"
+              title="Voir mes travaux"
               icon={<FaLocationArrow />}
               position="right"
             />
