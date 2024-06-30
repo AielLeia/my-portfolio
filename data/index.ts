@@ -130,8 +130,8 @@ export const testimonials = [
   {
     quote:
       "Ismaël a su gérer en autonomie des problèmes complexes. il a aussi su démontrer une très bonne adaptabilité sur le plan technique. Il est toujours volontaire et pertinent dans ses analyses. Il reste toujours disponible pour former les nouveaux arrivants et partager ses connaissances. c'est vraiment agréable de pouvoir travailler avec lui",
-    name: 'Sabrina AÏT MAKSÈNE',
-    title: 'Product Owner à Capgemini',
+    name: 'Gael Brulais',
+    title: 'RTE chez Capgemini',
   },
 ];
 
