@@ -102,7 +102,32 @@ export const projects = [
   },
 ];
 
-export const testimonials = [];
+export const testimonials = [
+  {
+    quote:
+      'Je recommande vivement Ismael pour tout poste ou opportunité nécessitant un expert technique doté d’excellentes compétences en communication.\n' +
+      'D’un point de vue technique, Ismael se distingue par une maîtrise approfondie des technologies suivantes : développement logiciel, ingénierie des systèmes, etc.]. Sa capacité à résoudre des problèmes complexes, à concevoir des solutions innovantes et à mettre en œuvre des projets de manière efficace est remarquable. Il reste constamment à jour avec les dernières avancées technologiques, ce qui lui permet d’apporter des solutions modernes et adaptées aux besoins de l’entreprise.\n' +
+      '\n' +
+      'En plus de ses compétences techniques, Ismael excelle en communication. Il sait vulgariser des concepts techniques complexes pour les rendre accessibles aux non-spécialistes, ce qui facilite grandement la collaboration interdisciplinaire. Sa capacité à écouter attentivement, à poser des questions pertinentes et à exprimer clairement ses idées contribue à un environnement de travail harmonieux et productif. Ismael est également très à l’aise dans la présentation d’informations techniques lors de réunions ou de conférences, captivant son auditoire par sa clarté et son assurance.',
+    name: 'Sara Dgaygui',
+    title: 'Scrum master',
+  },
+  {
+    quote:
+      "Ismaël est une personne avec laquelle travailler est un plaisir de tout les jours. J'ai été sa collègue pendant plusieurs années, c'est quelqu'un de très pédagogue, il a pu m'accompagner dans plusieurs tâches et notamment lors des différentes crises qui pouvaient survenir sur nos applications. Ismaël est proactif, ce qui est une qualité que j'ai apprécié lors des échanges et lors des analyses de sujets. Il accompagne volontairement et avec beaucoup de bienveillance les nouveaux arrivants et se rend disponible lorsqu'on a besoin de lui. Son sens du relationnel lui permet aussi de pouvoir avoir des échanges avec le client très fluides et constructifs. Pour terminer, c'est une personne en qui on peut avoir confiance, et sur qui on peut compter. J'ai été très heureuse de pouvoir passer des années en sa compagnie !",
+    name: 'Adeline Greaud',
+    title: 'Ingénieur en développement logiciel, Capgemini',
+  },
+  {
+    quote:
+      "J'ai pu travailler pendant plus d'un an avec Monsieur MOHAMED BOUH, et je ne peux que le recommander.\n" +
+      'Le travail avec Ismaël était très facile grâce à sa communication et à sa motivation.\n' +
+      'Les échanges étaient très fluides et il a toujours su épauler les devs juniors en restant bienveillant. \n' +
+      'Il fait preuve de rigueur et il maitrise parfaitement son périmètre.',
+    name: 'Sabrina AÏT MAKSÈNE',
+    title: 'Product Owner à Capgemini',
+  },
+];
 
 export const companies = [
   {
