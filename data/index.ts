@@ -133,6 +133,15 @@ export const testimonials = [
     name: 'Gael Brulais',
     title: 'RTE chez Capgemini',
   },
+  {
+    quote:
+      "J'ai travaillé avec Ismael sur un projet, j'ai pu voir que Ismael est toujours soucieux de la qualité de ce que l'équipe et lui même produit.\n" +
+      "Il pose des questions pour s'assurer d'avoir compris le besoin du client.\n" +
+      "Il n'hésite pas à challenger les solutions qui sont proposées par les architectes et ou les RT.\n" +
+      "Les livrables traités par Ismael sont de bonne qualité et font toujours l'objet de retour client positif avec peu ou pas de bugs remontés.",
+    name: 'Ali HADJ-SAID',
+    title: 'Software Engineer at Capgemini',
+  },
 ];
 
 export const companies = [
